@@ -129,7 +129,7 @@ body {
   border: 1px solid var(--primary-color);
   /* margin-top: 100px; */
 }
-.button:hover{
+.button:hover {
   background-color: white;
 
   color: black;
@@ -137,11 +137,10 @@ body {
 }
 .book {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
- 
+
   margin-top: 10px;
   margin-left: 3px;
   text-align: center;
-   
 }
 
 .haisan {
@@ -319,23 +318,13 @@ span {
   font-family: var(--font-heading);
 }
 
-
-
 /* Phần 2 */
-
-
 
 .anh-khoi1 {
   width: 590px;
   height: 800px;
   object-fit: cover;
 }
-
-
-
-
-
-
 
 .phan2 {
   position: relative;
@@ -367,11 +356,9 @@ span {
 }
 .khoi2-img {
   width: 320px;
-
 }
 
 .khoi2-anh1 {
-  
   height: 215px;
   object-fit: cover;
 }
@@ -393,11 +380,11 @@ span {
   font-family: var(--font-heading);
   width: 100px;
   height: 40px;
-  background:var(--primary-color);
+  background: var(--primary-color);
 
   border: 1px solid var(--primary-color);
 }
-.button2:hover{
+.button2:hover {
   background-color: white;
 
   color: black;
@@ -409,14 +396,14 @@ span {
 
 .khoi2-content .khoi2-title {
   padding-top: 20px;
-  font-family:var(--font-heading);
-  color:var(--primary-color);
+  font-family: var(--font-heading);
+  color: var(--primary-color);
 }
 
 .item {
   width: 70px;
   height: 70px;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .content1-p {
@@ -431,16 +418,15 @@ span {
 .content1 {
   margin-left: 15px;
 }
-.fa-credit-card, .fa-clock, .fa-truck {
+.fa-credit-card,
+.fa-clock,
+.fa-truck {
   display: flex;
   font-size: 30px;
   color: white;
   justify-content: center;
   padding-top: 20px;
 }
-
-
-
 
 .list-item {
   display: flex;
@@ -462,15 +448,13 @@ span {
 .phan2 .phancuoi {
   margin-top: 25px;
   display: flex;
- 
+
   width: 1250px;
   height: 300px;
   /* background-color: yellow; */
 }
 
-
-
-.khoi2--Content{
+.khoi2--Content {
   width: 678px;
   /* background-color: yellow; */
   font-family: var(--font-heading);
@@ -478,12 +462,217 @@ span {
   margin-top: -10px;
 }
 
-.khoi2-title{
+.khoi2-title {
   color: var(--primary-color);
   font-family: var(--font-heading);
 }
 
-.list-item2, .list-item3{
+.list-item2,
+.list-item3 {
   margin-left: 150px;
 }
+
+
+
+
+.list-Seafood{
+  margin-top: 200px;
+}
+.list-seafood-title{
+  text-align: center;
+  font-family: var(--font-heading);
+}
+.title-seafood{
+  color: var(--primary-color);
+  letter-spacing: 5px;
+  font-size: 25px;
+  
+}
+.title-h1{
+  font-size: 35px;
+}
+.list-seafood-imgSeafood{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+  gap: 25px;
+}
+/* List-Seafood */
+.list-seafood-imgSeafood-item1 {
+  position: relative;
+  /* margin-left: 40px; */
+  width: 400px;
+  height: 290px;
+  /* background-color: #ed1d1d; */
+  /* border: 19px solid red; */
+  overflow: hidden;
+}
+
+.img-item1 {
+  /* max-width: 100%; */
+
+  width: 415px;
+  height: 290px;
+  object-fit: cover;
+  /* margin-left: 50px; */
+  /* height: auto; */
+}
+
+.list-seafood-imgSeafood-item1 .img-item1 {
+  transition: 0.5s;
+}
+.list-seafood-imgSeafood-item1:hover .img-item1 {
+  transform: scale(1.3);
+
+  /* pointer-events: none; */
+
+  /* transition: 0.5s; */
+}
+.name {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 340px;
+  height: 230px;
+  background-color: #ccc;
+  /* opacity: 10%; */
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* transition: .5s; */
+}
+.name:hover {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 341px;
+  height: 231px;
+  background-color: #ccc;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border: 30px solid #cccccc5a;
+  transition: 0.5s;
+  /* transform: scale(1.3) ; */
+  /* pointer-events: none; */
+}
+
+.tom {
+  position: absolute;
+  color: white;
+  /* margin-top: 70px; */
+  top: 100px;
+  cursor: pointer;
+  left: 130px;
+  font-size: 25px;
+  font-family: var(--font-heading);
+}
+
+.number {
+  cursor: pointer;
+  color: white;
+
+  position: absolute;
+  font-family: var(--font-heading);
+  top: 140px;
+  left: 169px;
+}
+
+/* position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 340px;
+  height: 230px;
+  background-color: #ccc;
+  opacity: 30%;
+  text-align: center;
+  /* border: 30px solid #ed1d1d; */
+
+  .somai{
+    left: 160px;
+  }
+
+  .ocHuong{
+    left: 150px;
+  }
+
+  .ghe{
+    left: 173px;
+  }
+
+.list-seafood-imgSeafood-row-2{
+ margin-top: 25px;
+}
+
+
+/* Dịch vụ */
+
+
+/* Services */
+
+.box-route {
+  width: 80px;
+  height: 80px;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+
+  margin-top: 10px;
+}
+
+.phancuoi-content {
+  font-family: var(--font-heading);
+  margin-top: -19px;
+  width: 290px;
+  line-height: 23px;
+  height: 120px;
+  /* background-color: aqua; */
+ 
+  margin-left: 36px;
+}
+
+.phanCuoi-Khoi1 {
+  padding-top: 20px;
+  width: 415px;
+  height: 330px;
+  background-color: white;
+  box-shadow: 2px 3px 7px -3px rgba(0, 0, 0, 0.46);
+  text-align: center;
+}
+
+.phanCuoi {
+  display: flex;
+  gap: 55px;
+}
+
+.phanDau {
+  text-align: center;
+}
+
+.services {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 1250px;
+  height: 500px;
+  /* background-color: aqua; */
+}
+
+.title-services {
+  color:var(--primary-color);
+  letter-spacing: 5px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.fa-ticket,
+.fa-kitchen-set,
+.fa-shop{
+  font-size: 35px;
+  color:var(--primary-color);
+}
+
 
