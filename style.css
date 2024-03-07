@@ -958,3 +958,224 @@ h5 {
 .check-content {
   margin-left: 20px;
 }
+
+/* Guides */
+
+.Guides{
+  margin-top: 200px;
+}
+.anh-mrChef{
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.5s;
+  /* overflow: hidden; */
+  /* margin-left: 0px; */
+}
+.list-mrChef{
+  width: 280px;
+  height: 350px;
+    background-color: rgba(0, 0, 0, 0.786);
+  overflow: hidden;
+  margin-left: 200px;
+}
+.list-mrChef2{
+  margin-left: 50px;
+}
+.list-mrChef3{
+ margin-left: -10px;
+}
+.list-mrChef4{
+ margin-left: -70px;
+}
+
+.k1{
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  /* background-color: red; */
+  box-shadow: 2px 3px 7px -5px rgba(0, 0, 0, 0.426);
+  /* margin-left: 100px; */
+  margin-top: -20px;
+  text-align: center;
+  /* margin-top: 500px; */
+  /* padding-top: 15px; */
+  /* overflow: hidden; */
+  margin-top: 15px;
+  /* margin-left: 80px; */
+  margin-left: 200px;
+}
+.k2{
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  /* background-color: red; */
+  box-shadow: 2px 3px 7px -5px rgba(0, 0, 0, 0.426);
+  /* margin-left: 100px; */
+  margin-top: -20px;
+  text-align: center;
+  /* margin-top: 500px; */
+  /* padding-top: 15px; */
+  /* overflow: hidden; */
+  margin-top: 15px;
+  margin-left: 50px;
+  /* margin-left: 40px; */
+}
+.k3{
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  /* background-color: red; */
+  box-shadow: 2px 3px 7px -5px rgba(0, 0, 0, 0.426);
+  /* margin-left: 100px; */
+  /* margin-top: -20px; */
+  text-align: center;
+
+  margin-top: 15px;
+  margin-left: -10px;
+}
+.k4{
+  width: 280px;
+  height: 80px;
+  background-color: white;
+  /* background-color: red; */
+  box-shadow: 2px 3px 7px -5px rgba(0, 0, 0, 0.426);
+  /* margin-left: 100px; */
+  margin-top: -20px;
+  text-align: center;
+  /* margin-top: 500px; */
+  /* padding-top: 15px; */
+  /* overflow: hidden; */
+  margin-top: 15px;
+  margin-left: -70px;
+}
+.guides-our-3{
+  margin-left: 50px;
+}
+.guides-our-4{
+ margin-left: 100px;
+}
+.khoi-guides-our-1:hover{
+  box-shadow: 2px 3px 7px -5px rgba(0, 0, 0, 0.56);
+  
+}
+.name-mr-rick{
+  font-size: 20px;
+}
+.role{
+  height: 50px;
+  /* background-color: #0f9ed8; */
+  /* margin-top: 15px;
+   */
+   /* padding-top: 15px; */
+}
+.anh-mrChef:hover{
+  transform: scale(1.3);
+  /* background-color: rgba(0, 0, 0, 0.499); */
+  opacity: 50% ;
+  cursor: pointer;
+  
+}
+
+.guides-our{
+  position: relative;
+  /* margin-left: 100px; */
+  /* gap: 50px; */
+}
+.list-icon1{
+  position: absolute;
+  display: flex;
+  top: 150px;
+  left: 130px;
+  width: 250px;
+  height: 50px;
+  opacity: 0;
+  /* background-color: aqua; */
+  /* padding-bottom: 50px; */
+  /* display: none; */
+}
+.l1{
+  margin-left: 80px;
+}
+.l2{
+  margin-left: -70px;
+}
+.l3{
+  margin-left: -130px;
+}
+.l4{
+  margin-left: -190px;
+}
+.anh-mrChef:hover ~ .list-icon1{
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* .chung1{
+  width: 60px;
+
+  height: 50px;
+  background-color: #0fd820;
+} */
+.list-icon-twi{
+  width: 50px;
+  height: 50px;
+ 
+  border: 1px solid var(--primary-color);
+} 
+.list-icon-fb {
+  width: 50px;
+  height: 50px;
+  
+  border: 1px solid var(--primary-color);
+}
+.list-icon-int {
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid var(--primary-color);
+}
+.list-icon-lk{
+  width: 50px;
+  height: 50px;
+ 
+  border: 1px solid var(--primary-color);
+}
+.fb{
+  margin-left: 13px;
+  margin-top: 12px;
+  font-size: 25px;
+}
+.tw{
+  margin-left: 13px;
+  margin-top: 12px;
+}
+.int{
+  margin-left: 13px;
+  margin-top: 12px;
+}
+.lk{
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+.list-icon-fb .fa-facebook{
+  width: 50px;
+  color: #0f9ed8;
+  height: 50px;
+}
+
+.list-icon-fb, .list-icon-int, .list-icon-lk, .list-icon-twi{
+  margin-left: 10px;
+}
+
+.list-guides{
+  display: flex;
+  width: 1250px;
+  height: 100px;
+  /* background-color: #0f9ed8; */
+}
+
+.guides-our-2{
+  /* margin-left: -100px */
+}
