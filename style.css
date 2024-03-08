@@ -792,7 +792,7 @@ h5 {
 
 .tour-list {
   display: flex;
-  gap: 55px;
+  gap: 95px;
   width: 1250px;
   height: 500px;
   /* background-color: aqua; */
@@ -829,7 +829,7 @@ h5 {
 }
 
 .tour-list-2{
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 
@@ -962,7 +962,7 @@ h5 {
 /* Guides */
 
 .Guides{
-  margin-top: 200px;
+  margin-top: 300px;
 }
 .anh-mrChef{
   width: 280px;
@@ -1173,9 +1173,191 @@ h5 {
   display: flex;
   width: 1250px;
   height: 100px;
+  margin-top: 70px;
   /* background-color: #0f9ed8; */
 }
 
-.guides-our-2{
-  /* margin-left: -100px */
+.guides-header{
+  text-align: center;
+}
+
+
+.guides-header-tilte1{
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+  letter-spacing: 5px;
+}
+
+.guides-header-title2{
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  margin-top: -10px;
+}
+
+
+/* TESTIMONIAL */
+
+.TESTIMONIAL{
+  margin-top: 600px;
+}
+
+.box-content{
+  width: 390px;
+  height: 270px;
+  background-color: white;
+  box-shadow: 2px 1px 7px -3px rgba(0, 0, 0, 0.46);
+  
+}
+
+.box-content-img{
+  width: 100px;
+  margin-left: 150px;
+  margin-top: -50px;
+ height: 100px;
+ object-fit: cover;
+  
+}
+.box-conten-noidung{
+  width: 365px;
+  height: 50px;
+  /* background-color: aqua; */
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: -15px;
+}
+.box-conten-name{
+  margin-top: 80px;
+}
+
+.info{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.box-conten-nghenghiep{
+  margin-top: -10px;
+}
+.info-name-nghenghiep{
+  margin-left: -15px;
+}
+.body-part{
+  display: flex;
+  margin-left: 200px;
+  gap: 34px;
+  margin-top: 130px;
+}
+
+.box-move-1{
+  width: 20px;
+  height: 20px;
+  /* background-color: var(--primary-color); */
+  background-color: #ccc;
+}
+
+.box-Move{
+  display: flex;
+  gap: 15px;
+  /* align-items: center; */
+  justify-content: center;
+  width: 1250px;
+  /* background-color: aqua; */
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.box-move-3{
+  width: 40px;
+  background-color: #0f9ed8;
+}
+
+.testimonial-header{
+  text-align: center;
+}
+
+.testimonial-header-title{
+  color: var(--primary-color);
+  font-family: var(--font-heading);
+  letter-spacing: 7px;
+}
+
+.testimonial-header-title-2{
+  font-size: 2.5rem;
+  font-family: var(--font-heading);
+}
+
+/* Blog Latest */
+.latest-body-part-item-1-img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.latest-body-part-item-1{
+  width: 390px;
+  height: 410px;
+  background-color: white;
+  box-shadow: 2px 2px 3px -3px rgba(0, 0, 0, 0.46);
+}
+.latest-body-part-item-1:hover{
+  box-shadow: -2px -1px 17px -4px rgba(0,0,0,0.57);
+}
+.thanhDoc-latest{
+  cursor: pointer;
+  width: 2px;
+  height: 20px;
+  background-color: #ccc;
+  margin-left: 10px;
+  margin-right: 15px;
+  background-color: var(--primary-color);
+}
+
+.hau{
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+.latest-body-part-item-1-info{
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.hau1{
+
+}
+
+.latest-body-part-item-1-content{
+  line-height: 23px;
+  margin-top: -10px;
+  margin-left: 25px;
+}
+.latest-body-part-item-1-content:hover{
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.latest-body-part{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+  gap: 25px;
+}
+
+.LATEST{
+  margin-top: 250px;
+
+}
+
+.latest-header{
+  text-align: center;
+}
+
+.latest-header-tilte{
+  color: var(--primary-color);
+  letter-spacing: 5px;
+}
+
+.latest-header-tilte-h1{
+  font-size: 2.5rem;
+  margin-top: 27px;
 }
